@@ -1,0 +1,157 @@
+/*
+    Website 17 "Deathnote"
+    Mayank all contact reserved
+    CSS : style/style3
+*/
+#footer
+{
+    height: 10vh;
+    background:var(--black-l);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy
+{
+    margin: auto 3rem;
+    padding: 0.3rem 1rem;
+    font-size: 20px;
+    color:auto;
+    line-height: 5vh;
+}
+.copy:hover
+{
+    color: var(--red-l);
+}
+#a_btn
+{
+    margin: auto 3rem;
+    width: 150px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#a_btn div:only-child
+{
+    font-size: 2rem;
+    color:var(--green-d);
+    border:1px solid transparent;
+    transition: all linear 0.5s;
+}
+#a_btn:hover > div
+{
+    color: var(--red-d);
+    transform: rotate(-90deg);
+}
+/*
+    Login form  CSS --------------------------
+*/
+#login
+{
+    background: var(--black-l);
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6vh 6vh auto 6vh;
+}
+form h2
+{
+    grid-column: 1/-1;
+}
+.fld
+{
+    grid-column: 1/-1;
+    padding: 1rem;
+    font-size:18px;
+    background: transparent;
+    border:1px solid var(--black-d);
+    border-radius: 0.3rem;
+}
+.fld:hover
+{
+    border-color: var(--green-d);
+}
+.btn
+{
+    font-weight: bold;
+    font-size:1rem;
+    padding: 1rem;
+    color:auto;
+    background: transparent;
+    border:1px solid var(--black-d);
+    border-radius: 0.3rem;
+}
+.btn:hover
+{
+    color:var(--green-l);
+    border-color: var(--green-d);
+}
+input[type='submit']
+{
+    border-color: var(--green-d);
+}
+input[type='submit']:hover
+{
+    background: var(--black-d);
+}
+/*
+    Contact CSS -----------------------------
+*/
+#contact img[alt='logo']
+{
+    width: 35px;
+    height: auto;
+    object-fit: contain;
+}
+#contact h3
+{
+    padding: 1rem 3rem;
+}
+#contact p
+{
+    padding: 2rem;
+}
+#contact > div
+{
+    margin:1rem auto;
+    width:70%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color:var(--green-d);
+    background: var(--black-d);
+    border:1px solid var(--black-d);
+    border-radius: 0.3rem;
+}
+#contact > div:hover
+{
+    border-left: 3px solid var(--green-l);
+}
+#contact > div a
+{
+    display: inline-block;
+    margin: auto 3rem;
+    font-size: 20px;
+    color: var(--green-d);
+}
+#contact > div a:hover
+{
+    color:auto;
+    text-decoration: underline;
+}
+#contact > div:last-child
+{
+    display: flex;
+    justify-content: space-around;
+}
+#contact > div:last-child img[alt='logo']
+{
+    padding: 0.5rem;
+    width: 60px;
+    border:1px solid var(--green-d);
+    border-radius: 5rem;
+}
+#contact > div:last-child img[alt='logo']:hover
+{
+    background: var(--black-l);
+}

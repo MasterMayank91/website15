@@ -1,0 +1,52 @@
+/*
+    Website 17 "Deathnote"
+    Mayank all right reserved
+    CSS : style/main
+*/
+
+@import "style1.css";
+@import "style2.css";
+@import "style3.css";
+@import "anime.css";
+
+*
+{
+    margin: 0;
+    color:#ccc;
+    font-family:'calibri';
+    text-decoration: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+:root
+{
+    --red-d:#d63031;
+    --red-l:#ff7675;
+    --black-d:#212426;
+    --black-l:#2d3e4f;
+    --green-d:#00b894;
+    --green-l:#55efc4;
+}
+body
+{
+    background:var(--black-d);
+    /* background:rgba(0,0,0,0.9) url(../data/poster4.jpg) no-repeat;
+    background-size: contain;
+    background-blend-mode:overlay; */
+    overflow:hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+main
+{
+    width: 100%;
+    height: 200vh;
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+}
+audio
+{
+    display: none;
+}

@@ -1,0 +1,47 @@
+/*
+    Website 17 "Deathnote"
+    Mayank all right reserved
+    CSS : style/style1
+*/
+#header
+{
+    z-index:1;
+    position:relative;
+    text-align: center;
+}
+#header h1
+{
+    padding: 5rem;
+    font:bold 3rem 'chiller';
+    color:var(--green-l);
+}
+#header p
+{
+    margin: auto;
+    padding: 1rem;
+    width: 60vw;
+    font:1.5rem 'chiller';
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color:var(--green-d);
+}
+#link_btn
+{
+    margin: 2rem;
+    display: inline-block;
+    padding:0.5rem 1rem;
+    font-size: 3rem;
+    color:var(--green-d);
+    border: 5px solid var(--green-d);
+    border-radius: 50%;
+    transition: all linear 0.5s;
+}
+#link_btn:hover
+{
+    transform:translateY(50px);
+    border: none;
+    border-radius: 0;
+    border-top: 5px solid var(--red-d);
+    color: var(--green-l);
+}
